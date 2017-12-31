@@ -1,6 +1,8 @@
 Arduino components for MicroFlo
 =====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/microflo/microflo-arduino.svg)](https://greenkeeper.io/)
+
 
 # License
 MIT for all new code.
