@@ -1,0 +1,30 @@
+{
+  "name": "microflo-arduino",
+  "version": "0.0.1",
+  "description": "MicroFlo components for Arduino",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "microflo generate --target=arduino graphs/all.fbp build/all.ino",
+    "start": "microflo runtime --wait-connect 3 --graph graphs/all.fbp --componentmap build/all.component.map.json",
+    "build": "`node build.js`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microflo/microflo-arduino.git"
+  },
+  "keywords": [
+    "microflo",
+    "arduino",
+    "fbp",
+    "dataflow"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microflo/microflo-arduino/issues"
+  },
+  "homepage": "https://github.com/microflo/microflo-arduino#readme",
+  "devDependencies": {
+    "microflo": "^0.6.0"
+  }
+}
