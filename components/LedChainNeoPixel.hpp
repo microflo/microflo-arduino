@@ -1,6 +1,7 @@
 /* microflo_component yaml
 name: LedChainNeoPixel
 description: Display colors on RGB strips/chains using WS2812 controller
+icon: "lightbulb-o"
 inports:
   in:
     type: all

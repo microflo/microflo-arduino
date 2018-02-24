@@ -1,6 +1,7 @@
 /* microflo_component yaml
 name: UltrasoundSR04
 description: "Read distance using a HC-SR04 ultrasonic sensor"
+icon: "arrows-h"
 inports:
   trigger:
     type: bang

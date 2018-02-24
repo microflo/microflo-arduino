@@ -1,6 +1,7 @@
 /* microflo_component yaml
 name: LedMatrixMax
 description: Set characters on MAX7219 display
+icon: "lightbulb-o"
 inports:
   in:
     type: all

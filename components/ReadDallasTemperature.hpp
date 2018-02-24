@@ -1,6 +1,7 @@
 /* microflo_component yaml
 name: ReadDallasTemperature
 description: "Read temperature from DS1820 thermometer. Note: requires building MicroFlo from source tree."
+icon: "thermometer-1"
 inports:
   trigger:
     type: all
